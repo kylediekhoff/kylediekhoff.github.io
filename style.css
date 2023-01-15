@@ -54,6 +54,20 @@
     border-radius: 16px 16px 0px 0px;
 }
 
+.mal-icon {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    padding: 0 96px;
+    z-index: 1;
+}
+
+.mal-icon img {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 25%;
+    object-fit: cover;
+}
+
 .avatar-picture {
     grid-row: 2 / 4;
     grid-column: 1 / -1;
